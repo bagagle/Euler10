@@ -1,5 +1,7 @@
 '''The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 Find the sum of all the primes below two million'''
+
+
 def isprime(myNum):
     if(myNum < 2):
         return False
@@ -21,6 +23,6 @@ def main():
             mysum += myNum
         else:
             pass
-    print(mysum)
+    print(mysum) #ATTN: s not printing the correct numbers
 
 if __name__ == "__main__":main()
